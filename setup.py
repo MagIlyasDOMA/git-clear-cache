@@ -3,7 +3,7 @@ from pip_setuptools import requirements, setup, find_packages, readme, clean
 clean()
 setup(
     name='git-clear-cache',
-    version='0.1.0',
+    version='0.1.1',
     author="Маг Ильяс DOMA",
     author_email='magilyas.doma.09@list.ru',
     install_requires=requirements(),

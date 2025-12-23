@@ -1,6 +1,9 @@
 import argparse
 from .core import GitCacheRemover
 
+__version__ = '0.1.1'
+__all__ = ['main', 'GitCacheRemover', '__version__']
+
 
 def main():
     parser = argparse.ArgumentParser()

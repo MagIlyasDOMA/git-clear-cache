@@ -6,7 +6,7 @@ from pyundefined import undefined
 
 PathLike = Union[Path, str]
 PathNone = Optional[PathLike]
-PathsType = Union[list[PathLike], tuple[PathLike], set(PathLike), PathLike]
+PathsType = Union[list[PathLike], tuple[PathLike], set[PathLike], PathLike]
 
 
 class GitNotInstalledError(Exception):
